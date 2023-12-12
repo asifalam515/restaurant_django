@@ -27,14 +27,14 @@
             <a class="nav-link" href=" {% url 'showItem' %} ">Show Item</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href=" {% url 'about' %} ">About Us</a>
           </li>
           
         </ul>
       </div>
     </div>
   </nav>
-<div class="content row text-center justify-content-center">
+<div class="content row text-center justify-content-center p-2  m-2">
     {% block content %}
 
     {% endblock content %}
